@@ -36,7 +36,7 @@ export const {
       //Prevent sign in w/0 email verification
       if (!existingUser?.emailVerified) return false;
 
-      //Add 2fa check
+      //Add 2FA check
 
       return true;
     },

@@ -15,6 +15,7 @@ export const authRoutes = [
   "/auth/register",
   "/auth/error",
   "/auth/reset",
+  "/auth/new-password", //only available for logged out users as logged in users will have settings to change password
 ];
 
 /**

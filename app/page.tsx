@@ -22,7 +22,8 @@ export default function Home() {
         </h1>
         <p className="text-white text-lg">A simple authentication service</p>
         <div>
-          <LoginButton>
+          <LoginButton mode="modal" asChild>
+            {/* asChild to fix hydration errors */}
             <Button variant="secondary" size="lg">
               Sign in
             </Button>

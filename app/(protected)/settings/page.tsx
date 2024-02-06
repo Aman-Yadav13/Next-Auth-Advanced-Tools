@@ -179,7 +179,7 @@ const SettingsPage = () => {
                   </FormItem>
                 )}
               />
-              {user.isOAuth === false && (
+              {user?.isOAuth === false && (
                 <FormField
                   control={form.control}
                   name="isTwoFactorEnabled"
